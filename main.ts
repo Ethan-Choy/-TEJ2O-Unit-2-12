@@ -33,10 +33,10 @@ input.onButtonPressed(Button.A, function() {
 
     // show red or green
     if (distance < 10) {
-    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
-    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Green))
-    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Green))
-    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Green))
+    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Red))
     neopixelStrip.show()
     basic.pause(3000)
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
@@ -46,10 +46,10 @@ input.onButtonPressed(Button.A, function() {
     neopixelStrip.show()
     basic.showIcon(IconNames.Happy)
     } else {
-    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
-    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Red))
-    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
-    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
+    neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Green))
+    neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Green))
+    neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Green))
     neopixelStrip.show()
     basic.pause(3000)
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
